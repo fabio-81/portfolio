@@ -1,6 +1,6 @@
 body{
     font-size: 1em;
-    font-family:Montserrat;
+    font-family:Montserrat, Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -65,7 +65,7 @@ body{
 
 .main-content-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* background-color: grey; */
     margin: 0 auto;
     /* width: 90%; */
@@ -75,16 +75,16 @@ body{
 .main-content-image{
     width: 15em;
     background-color: white;
-    border-radius: 20px;
+  
 }
 .image-container{
-    width: 15em;
-    height: 15em;
+    width: 25em;
+    height: 25em;
 }
 .image-item{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+
 }
 .portfolio-sample-name{
     text-align: center;
