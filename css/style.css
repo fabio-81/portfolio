@@ -1,22 +1,21 @@
 body{
     font-size: 1em;
     font-family:Montserrat, Arial, Helvetica, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100%; 
 
 }
 .hero-banner-container{
-    /* background-image: url(); */
-    /* width: 90%;
-    margin: 0 auto; */
-    /* background-position: center;
-    height: 25em;
-    background-size: cover;
-    border-radius: 20px; */
+
     text-align: center;
+}
+.hero-banner-paragraph{
+    font-weight: 600;
+}
+
+.primary-main-content-heading{
+    font-size: 3em;
 }
 
 
@@ -70,6 +69,7 @@ body{
 .main-content-image{
     width: 25em;
     background-color: white;
+    box-shadow: 0 0 1em 0;
   
 }
 .image-container{
@@ -128,4 +128,7 @@ body{
 .about-container{
     width: 90%;
     margin: 0 auto;
+}
+.skills-container{
+    list-style: circle;
 }
