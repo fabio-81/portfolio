@@ -68,12 +68,12 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     /* background-color: grey; */
     margin: 0 auto;
-    /* width: 90%; */
+    width: 90%;
     padding: 20px 20px;
     justify-items: center;
 }
 .main-content-image{
-    width: 15em;
+    width: 100%;
     background-color: white;
   
 }
@@ -87,13 +87,13 @@ body{
 
 }
 .portfolio-sample-name{
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+ 
 }
-.portfolio-sample-name a{
+/* .portfolio-sample-name a{
     text-decoration: none;
     color: black;
-}
+} */
 .secondary-main-content-heading{
     background-color: black;
     color: white;
