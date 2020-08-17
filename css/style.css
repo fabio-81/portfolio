@@ -10,20 +10,13 @@ body{
 }
 .hero-banner-container{
     /* background-image: url(); */
-    width: 90%;
-    margin: 0 auto;
-    background-position: center;
+    /* width: 90%;
+    margin: 0 auto; */
+    /* background-position: center;
     height: 25em;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 20px; */
     text-align: center;
-}
-.primary-main-content-heading{
-
-}
-.hero-banner-paragraph{
-
-    
 }
 
 
@@ -47,15 +40,16 @@ body{
 }
 .logo-container{
  height: 100%;
+ width: 5em;
 
 
 }
 .logo-item{
     height: 100%;
 }
-.logo{
-    /* height: 100%; */
-}
+/* .logo{
+    height: 100%;
+} */
 .nav-item a{
     color: white;
     padding: 20px;
@@ -111,4 +105,24 @@ body{
 .footer-paragraph{
     color: white;
     text-align: center;
+}
+.main-container{
+    flex: 1;
+}
+.contact-me-images{
+    display: flex;
+    justify-content: center;
+
+}
+.contact-me-image{
+    width: 4em;
+    padding: 0.5em;
+}
+.contact-container{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.about-container{
+    width: 90%;
+    margin: 0 auto;
 }
