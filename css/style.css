@@ -65,9 +65,10 @@ body{
     width: 90%;
     padding: 20px 20px;
     justify-items: center;
+    grid-gap: 1em;
 }
 .main-content-image{
-    width: 100%;
+    width: 25em;
     background-color: white;
   
 }
@@ -80,9 +81,10 @@ body{
     height: 100%;
 
 }
-.portfolio-sample-name{
-    text-align: left;
- 
+.paragraph-title{
+    /* text-align: left; */
+    /* font-weight: 500; */
+ padding: .5em;
 }
 /* .portfolio-sample-name a{
     text-decoration: none;
@@ -108,6 +110,7 @@ body{
 }
 .main-container{
     flex: 1;
+    background-color: aliceblue;
 }
 .contact-me-images{
     display: flex;
