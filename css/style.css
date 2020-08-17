@@ -132,11 +132,3 @@ body{
 .skills-container{
     list-style: circle;
 }
-.video-container{
-    display: grid;
-    justify-content: center;
-
-}
-.video-item{
-    outline: none;
-}

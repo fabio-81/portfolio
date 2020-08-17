@@ -1,0 +1,8 @@
+.video-container{
+    display: grid;
+    justify-content: center;
+
+}
+.video-item{
+    outline: none;
+}
