@@ -1,4 +1,6 @@
 .discovery-banner-container{
     width: 90%;
     margin: 2em auto;
+    display: grid;
+    justify-content: center;
 }
